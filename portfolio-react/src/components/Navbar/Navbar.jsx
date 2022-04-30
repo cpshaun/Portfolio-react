@@ -22,14 +22,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="app__navbar-resume">
-          {/* <a href="https://www.linkedin.com/in/Chua-Peng-Shaun" target="_blank" rel="noreferrer" className="menu-link">
-            <img src= {images.linkedin} alt="linkedin logo"/>
-          </a>
-          <a href="https://github.com/cpshaun" target="_blank" rel="noreferrer" className="menu-link">
-            <img src= {images.github} alt="github logo"/>
-          </a> */}
-          <a href="Portfolio Site/portfolio-react/src/resume/Chua_Peng_Shaun_Resume.pdf" className="resume" download>
-            {/* <img src={images.download} alt="download file icon"/> */}
+          <a href="/resume/Chua_Peng_Shaun_Resume.pdf" className="resume" download>
             Resume
             <HiDocumentDownload />
           </a>
