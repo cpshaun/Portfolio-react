@@ -1,0 +1,137 @@
+.app__about-header {
+    padding: 6rem 5rem 0 5rem;
+    max-width: 1000px;
+    margin: auto;
+    color: var(--secondary-color);
+}
+
+.app__about {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 1000px;
+    // width: clamp(500px,75vw,1000px);
+    margin: auto;
+    padding: 0 5rem;
+    flex-direction: row;
+
+    .display-picture {
+        height: 20rem;
+        width: 18rem;
+        border-radius: 10%;
+        margin: 1rem 0 0 0;
+    }
+
+    .app__about-text {
+        margin: 1rem 0 0 1rem;
+    
+        h1 {
+            font-size: 1.5rem;
+        }
+    
+        p {
+            margin-top: -1rem;
+        }
+    
+    }
+
+    .app__about-bio {
+        padding-top: 2rem;
+        // margin: 2rem 0;
+        margin: auto;
+        max-width: 1000px;
+    
+        h3 {
+            text-align: center;
+            font-size: 1rem;
+        }
+    
+        p {
+            margin:-1rem 0 0 0;
+            max-width: 500px;
+            text-align: justify;
+            
+            @media screen and (max-width: 1000px) {
+                padding-left: 3rem;
+            }
+            
+            @media screen and (max-width: 800px ) {
+                margin: auto;
+                width: 100%;
+                padding-left: 0;
+            }
+
+        }
+    }
+
+    @media screen and (max-width: 800px ) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 80%;
+        padding: 0 1rem;
+        margin: auto;
+
+        .app__about-container {
+            text-align: center;
+
+            .display-picture {
+                height: 15rem;
+                width: 15rem;
+                border-radius: 50%;
+                margin: 0;
+            }
+
+            .app__about-text {
+                margin: 1rem 0 0 0;
+                
+                h1 {
+                    margin-top: -0.5em;
+                    text-align: center;
+                }
+            }
+        }
+   
+    }
+}
+
+
+
+.app__about-technologies {
+    
+    h3 {
+        margin-top: 1.5rem;
+    }
+
+}
+
+.app__about-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    ul {
+        padding: 0;
+    }
+
+    .icon {
+        padding-right: 0.8rem;
+        color: var(--secondary-color);
+    }
+
+    li {
+       list-style: none; 
+       display: flex;
+       align-items: center;
+       padding: 0.5rem 0 0 0 ;
+    }
+
+    // @media screen and (max-width: 800px) {
+    //     font-size:1.2rem;
+    // }
+
+    @media screen and (max-width: 1000px) {
+        font-size:0.8rem;
+    }
+}

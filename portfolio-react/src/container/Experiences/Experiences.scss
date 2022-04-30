@@ -1,0 +1,26 @@
+.app__experiences {
+    // margin: 2rem;
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 5rem;
+
+    @media screen and (max-width: 768px ) {
+        padding: 2rem 3rem;
+    }
+
+    @media screen and (max-width: 400px ) {
+        padding: 1em 3rem;
+    }
+}
+
+.app__experiences-header {
+    padding: 6rem 5rem 0 5rem;
+    max-width: 1000px;
+    margin: auto;
+    color: var(--secondary-color);
+
+    @media screen and (max-width:800px){
+        padding: 6rem 3rem 0 3rem;
+    }
+}
