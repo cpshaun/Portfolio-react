@@ -4,6 +4,10 @@
     margin: auto;
     color: var(--secondary-color);
 
+    @media screen and (max-width: 800px ) {
+        text-align: center;
+    }
+
     @media screen and (max-width: 667px) {
         padding: 3rem 5rem 0rem 5rem;
     }
