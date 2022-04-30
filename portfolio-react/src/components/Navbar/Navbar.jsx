@@ -22,7 +22,7 @@ const Navbar = () => {
           ))}
         </ul>
         <div className="app__navbar-resume">
-          <a href="/resume/Chua_Peng_Shaun_Resume.pdf" className="resume" download>
+          <a href="/Chua_Peng_Shaun_Resume.pdf" className="resume" download>
             Resume
             <HiDocumentDownload />
           </a>
