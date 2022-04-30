@@ -40,8 +40,11 @@ body {
     &:hover {
       color: var(--secondary-color);
     }
+    @media screen and (max-width: 500px) {
+       height: 0.8rem;
+       width: 0.8rem;
+    }
   }
-
 }
 
 .app__container {
@@ -83,11 +86,12 @@ body {
       height: 20px;
     }
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     display: none;
   }
 }
 
 .copyright {
   color: var(--secondary-color);
+  margin-top: 2rem;
 }

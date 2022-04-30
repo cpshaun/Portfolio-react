@@ -14,7 +14,6 @@ const SocialMedia = () => {
               <BsLinkedin />
             </a>
         </div>
-        {/* <div className='horizontal-bar'/> */}
     </div>
   )
 }
