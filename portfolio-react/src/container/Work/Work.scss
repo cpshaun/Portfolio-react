@@ -13,11 +13,6 @@
     }
 }
 
-// .app__works {
-//     flex-direction: column;
-
-// }
-
 .app__works-filter {
     display: flex;
     flex-direction: row;
@@ -63,10 +58,6 @@
 }
 
 .app__works-portfolio {
-    // box-sizing: border-box;
-    // max-width: 1000px;
-    // margin: auto;
-    // // padding: 0 5rem;
 
     display: flex;
     flex-wrap: wrap;
@@ -190,7 +181,7 @@
     h4 {
         font-size: 1.2rem;
         margin: 0;
-        padding:0;
+        padding-top:0.7rem;
         line-height: 1.5;
     }
 
