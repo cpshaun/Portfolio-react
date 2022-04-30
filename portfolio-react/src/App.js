@@ -13,7 +13,6 @@ function App() {
         <Work/>
         <Contact />
       </div>
-      <p className="copyright app__flex"> Built by Chua Peng Shaun. </p>
     </>
   );
 }

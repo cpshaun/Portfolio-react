@@ -111,6 +111,7 @@ const Contact = () => {
             </h3>
           </div>}
       </div>
+      <p className="copyright app__flex"> Built by Chua Peng Shaun. </p>
     </>
   )
 }
