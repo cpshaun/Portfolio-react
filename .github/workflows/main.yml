@@ -17,9 +17,5 @@ jobs:
             - name: Deploy Sanity
               run: |
                   set -e
-                  # Put your environment variables here. Don't forget
-                  # to create secrets for them on GitHub:
-                  # https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets
-                  cat << EOF > .env.production
                   # Make sure to add a secret for SANITY_AUTH_TOKEN
                   SANITY_AUTH_TOKEN="${{ secrets.SANITY_AUTH_TOKEN }}" yarn sanity deploy
