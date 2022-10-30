@@ -46,7 +46,7 @@ const Work = () => {
         <h1>Works</h1>
       </motion.div>
       <div className="app__works-filter app__flex">
-        {['UI/UX', 'CLI','ReactJS','Python','All'].map((item,index) => (
+        {['UI/UX', 'CLI','ReactJS','Python','Web Dev','All'].map((item,index) => (
           <div 
             key={index}
             onClick = {() => handleWorkFilter(item)}
