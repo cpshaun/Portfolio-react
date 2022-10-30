@@ -1,7 +1,7 @@
 import React from 'react'
 import './Experience.scss'
 
-const Experience = ({company, position, date, imageUrl, description }) => {
+const Experience = ({company, position, date, imageUrl, url, description }) => {
     const descriptions = description.map((description,index) => <li key={index}>{description}</li>)
 
     return (
@@ -11,7 +11,10 @@ const Experience = ({company, position, date, imageUrl, description }) => {
         </h2>
         <div className="app__experience-container">
             <div className="app__experience-details">
-                <img src={imageUrl} alt ={company}/>
+                <a href={url} target="_blank">
+                    <img src={imageUrl} alt ={company}/>
+                    
+                </a>
                 <h3>
                     {position}
                 </h3>

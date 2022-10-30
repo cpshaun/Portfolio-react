@@ -1,4 +1,5 @@
 import Biome from '../images/Biome.png';
+import BOVEM from '../images/bovem.jpg';
 import displaypic from '../images/displaypic.jpg';
 import DSO from '../images/DSO.jpeg';
 import HDB_contact_info from '../images/HDB contact info.svg';
@@ -10,8 +11,10 @@ import star from '../images/star.gif';
 import Suibian from '../images/Suibian.png';
 import Virtual_Usher from '../images/Virtual Usher.svg';
 
+
 export default {
     Biome,
+    BOVEM,
     displaypic,
     DSO,
     HDB_contact_info,
@@ -21,5 +24,5 @@ export default {
     Shaun,
     star,
     Suibian,
-    Virtual_Usher
+    Virtual_Usher,
 }
