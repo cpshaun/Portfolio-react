@@ -78,6 +78,10 @@ const About = () => {
                 <FaLaptopCode className='icon'/>
                   React
                 </li>
+                <li>
+                <FaLaptopCode className='icon'/>
+                  Shopify Liquid
+                </li>
               </ul>
             </motion.div>
             <motion.div
