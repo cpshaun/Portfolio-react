@@ -35,6 +35,20 @@ const Experiences = () => {
       className="app__experiences"
       >
         <Experience 
+        company="BOVEM"
+        imageUrl={images.BOVEM}
+        url='https://bovem.co'
+        position="Web Developer"
+        date="(Jun 2022 - Present)"
+        description={BOVEM}
+        />
+      </motion.div>
+      <motion.div
+      whileInView ={{y: [100,0],opacity: [0,1]}}
+      transition={{ duration: 0.5}}
+      className="app__experiences"
+      >
+        <Experience 
         company="Housing Development Board"
         imageUrl={images.HDB}
         position="UXD Intern"
@@ -54,21 +68,7 @@ const Experiences = () => {
         date="(Jun 2020 - Aug 2020)"
         description={DSO}
         />
-      </motion.div>
-      <motion.div
-      whileInView ={{y: [100,0],opacity: [0,1]}}
-      transition={{ duration: 0.5}}
-      className="app__experiences"
-      >
-        <Experience 
-        company="BOVEM"
-        imageUrl={images.BOVEM}
-        url='https://bovem.co'
-        position="Web Developer"
-        date="(Jun 2022 - Present)"
-        description={BOVEM}
-        />
-      </motion.div>
+      </motion.div>      
     </>
   )
 }
